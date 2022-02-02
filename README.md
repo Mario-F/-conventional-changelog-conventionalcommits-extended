@@ -1,2 +1,2 @@
-# -conventional-changelog-conventionalcommits-extended
+# conventional-changelog-conventionalcommits-extended
 A conventional-changelog config based on conventionalcommits with additional features
