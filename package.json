@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-conventionalcommits-extended",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A conventional-changelog config based on conventionalcommits with additional features",
   "main": "lib/index.js",
   "scripts": {
