@@ -1,13 +1,15 @@
 {
   "name": "conventional-changelog-conventionalcommits-extended",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A conventional-changelog config based on conventionalcommits with additional features",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint --ext .ts src",
     "build": "tsc"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "repository": "https://github.com/Mario-F/conventional-changelog-conventionalcommits-extended.git",
   "author": "Mario-F <github@fritschen.net>",
   "license": "MIT",
