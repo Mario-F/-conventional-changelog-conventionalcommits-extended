@@ -1,3 +1,10 @@
+# IDE
+.vscode
+
+# temps
+temp
+tmp
+
 # Logs
 logs
 *.log
