@@ -1,18 +1,9 @@
 'use strict'
 
+import { PresetConfig } from './types'
 import debug from 'debug'
 
 const d = debug('conventional-changelog-conventionalcommits-extended:index')
-
-interface PresetConfig {
-  types?: Array<PresetConfigType>
-}
-
-interface PresetConfigType {
-  type: string
-  hidden?: boolean
-  section: string
-}
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export = function (parameter: any): any {
