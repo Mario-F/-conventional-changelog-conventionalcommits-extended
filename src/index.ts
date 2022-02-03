@@ -2,6 +2,7 @@
 
 import { PresetConfig } from './types'
 import debug from 'debug'
+import parserOpts from './parser-opts'
 
 const d = debug('conventional-changelog-conventionalcommits-extended:index')
 
@@ -17,10 +18,10 @@ export = function (parameter: any): any {
   }
 }
 
-function presetOpts(config: PresetConfig) {
+async function presetOpts(config: PresetConfig) {
   const result = {
     conventionalChangelog: null,
-    parserOpts: null,
+    parserOpts: await parserOpts(config),
     recommendedBumpOpts: null,
     writerOpts: null,
   }

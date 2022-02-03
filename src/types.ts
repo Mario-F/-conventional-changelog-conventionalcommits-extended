@@ -1,5 +1,6 @@
 export type PresetConfig = {
   types?: Array<PresetConfigType>
+  issuePrefixes?: Array<string>
 }
 
 export type PresetConfigType = {
